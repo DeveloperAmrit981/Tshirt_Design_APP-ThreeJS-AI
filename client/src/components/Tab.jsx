@@ -22,6 +22,7 @@ const Tab = ({tab, isFilterTab, isActiveTab, handleClick}) => {
         alt={tab.name}
         className={`${isFilterTab ? 'w-2/3 h-2/3': 'w-11/12 h-11/12'}`}
       />
+      <p className='text-black-800 font-medium'>{tab.displayName}</p>
     </div>
   )
 }
